@@ -8,5 +8,5 @@ mkdocs-jupyter
 mkdocs-include-dir-to-nav
 mkdocs-literate-nav
 mkdocs-site-urls
-# mike
-# mistune==3.0.2
+mike
+mistune==3.0.2

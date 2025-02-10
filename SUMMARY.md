@@ -1,0 +1,5 @@
+* [Home](index.md)
+* [User Guide](user-guide/)
+* [Leaderboard](leaderboard/)
+* [Datasets](Datasets/)
+* [Algorithms](algorithms/)
