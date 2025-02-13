@@ -3,7 +3,7 @@ hide:
   - navigation
 ---
 
-The **Leaderboard Repository** provides an interactive framework for biomodel simulation and time series prediction. By integrating AI-driven time series models, we extend traditional biomodel simulations to forecast future states based on initial conditions.
+Welcome to [**Team VPE's**](https://github.com/VirtualPatientEngine) **Leaderboard Repository!** This project provides an interactive framework for biomodel simulation and time series prediction. By integrating AI-driven time series models, we extend traditional biomodel simulations to forecast future states based on initial conditions.
 
 This allows researchers and developers to:
 
@@ -14,13 +14,10 @@ This allows researchers and developers to:
 
 ## Why Use This Platform?
 
-✅ Predictive AI-Driven Simulations – Extend biomodel analysis with time series forecasting
-
-✅ Automated Pipelines – Seamless execution of simulations & predictions
-
-✅ Real-time Visualizations – Compare predicted vs. actual data instantly
-
-✅ Interactive Leaderboard – Rank AI models based on accuracy metrics
+- Predictive AI-Driven Simulations – Extend biomodel analysis with time series forecasting
+- Automated Pipelines – Seamless execution of simulations & predictions
+- Real-time Visualizations – Compare predicted vs. actual data instantly
+- Interactive Leaderboard – Rank AI models based on accuracy metrics
 
 <div class="grid cards" markdown>
 

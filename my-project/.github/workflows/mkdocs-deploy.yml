@@ -1,0 +1,38 @@
+name: mkdocs
+
+on:
+  push:
+    branches:
+      - main  # Trigger on pushes to the main branch (or your preferred branch)
+
+permissions:
+  contents: write  # Required for pushing to the gh-pages branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.12  # Or your preferred Python version
+
+      - name: Install dependencies
+        run: |
+          pip install mkdocs mkdocs-material mkdocs-material-extensions mkdocstrings mkdocstrings-python mkdocs-include-markdown-plugin mkdocs-jupyter mkdocs-git-revision-date-localized-plugin mike mistune
+
+      - name: Build and Deploy MkDocs
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}  # Your GitHub Personal Access Token
+        run: |
+          git remote set-url origin https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}.git
+          mkdocs gh-deploy --config-file mkdocs.yml --clean --force
+
+      # Optional: Add a step to invalidate Cloudflare cache if you use it
+      # - name: Purge Cloudflare Cache (if applicable)
+      #   uses: jakejarvis/cloudflare-purge@v1
+      #   with:
+      #     cloudflare_token: ${{ secrets.CLOUDFLARE_TOKEN }}
+      #     cloudflare_zone_id: ${{ secrets.CLOUDFLARE_ZONE_ID }}
