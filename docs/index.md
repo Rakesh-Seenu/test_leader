@@ -25,7 +25,7 @@ This allows researchers and developers to:
 
     ---
 
-    Install BioNeMo and set up your environment to start accelerating your bioinformatics workflows.
+    Install VPE and set up your environment to start accelerating your VPE workflows.
 
     [Get Started](user-guide){ .md-button .md-button }
 
@@ -33,7 +33,7 @@ This allows researchers and developers to:
 
     ---
 
-    Access comprehensive documentation on BioNeMo's sub-packages, functions, and classes.
+    Access comprehensive documentation on Biology Model's Algorithms
 
     [API Reference](algorithms){ .md-button .md-button }
 
@@ -41,17 +41,17 @@ This allows researchers and developers to:
 
     ---
 
-    Explore detailed instructions and best practices for using BioNeMo models in your research.
+    Explore detailed instructions and best practices for using leaderboard in your research.
 
     [Explore LeaderBoard](leaderboard){ .md-button .md-button }
 
 
 
--   :material-database-outline:{ .lg } __Datasets__
+-   :material-database-outline:{ .lg } __QSP Models__
 
     ---
 
-    Explore biomolecular datasets that come pre-packaged with the BioNeMo Framework.
+    Explore QSP Bio Model datasets that come pre-packaged with the BioNeMo Framework.
 
     [Explore Datasets](datasets){ .md-button .md-button }
 

@@ -21,7 +21,6 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install mkdocs mkdocs-material mkdocs-macros-plugin mkdocs-material-extensions mkdocstrings mkdocstrings-python mkdocs-include-markdown-plugin mkdocs-jupyter mkdocs-git-revision-date-localized-plugin mike mistune
           pip install mkdocs-material
           pip install mkdocs-macros-plugin
           pip install mkdocs-minify-plugin
