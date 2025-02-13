@@ -30,27 +30,25 @@ This repository enables researchers and developers to:
 We welcome contributions! 🚀
 
 To contribute:
-
 - Clone your fork:
 git clone https://github.com/your-username/test_leader.git
-
 - Create a feature branch:
 git checkout -b feature-new-model
-
 - Make your changes and test locally:
 mkdocs serve
-
 - Commit and push:
   git add .
   git commit -m "Added new AI model"
   git push origin feature-new-model
 
-Open a Pull Request!
+---
 
 ## 🐞 Bugs or Feature Requests
 If you encounter any bugs 🐞 or have feature requests ✨, please create an Issue here.
 
 📢 Stay Connected!
+
+---
 
 ## Follow us for updates:
 
