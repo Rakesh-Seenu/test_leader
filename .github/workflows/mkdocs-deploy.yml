@@ -27,7 +27,6 @@ jobs:
         env:
           GH_PAT: ${{ secrets.GH_PAT }}  # Your GitHub Personal Access Token
         run: |
-          git remote set-url origin https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}.git
           mkdocs gh-deploy --config-file mkdocs.yml --clean --force
 
       # Optional: Add a step to invalidate Cloudflare cache if you use it
@@ -36,3 +35,5 @@ jobs:
       #   with:
       #     cloudflare_token: ${{ secrets.CLOUDFLARE_TOKEN }}
       #     cloudflare_zone_id: ${{ secrets.CLOUDFLARE_ZONE_ID }}
+
+                # git remote set-url origin https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}.git
