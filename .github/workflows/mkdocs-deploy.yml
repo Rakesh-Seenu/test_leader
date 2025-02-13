@@ -21,7 +21,19 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install mkdocs mkdocs-material mkdocs-material-extensions mkdocstrings mkdocstrings-python mkdocs-include-markdown-plugin mkdocs-jupyter mkdocs-git-revision-date-localized-plugin mike mistune
+          pip install mkdocs mkdocs-material mkdocs-macros-plugin mkdocs-material-extensions mkdocstrings mkdocstrings-python mkdocs-include-markdown-plugin mkdocs-jupyter mkdocs-git-revision-date-localized-plugin mike mistune
+          pip install mkdocs-material
+          pip install mkdocs-macros-plugin
+          pip install mkdocs-minify-plugin
+          pip install mkdocstrings[python]
+          pip install mkdocs-gen-files
+          pip install pymdown-extensions
+          pip install mkdocs-jupyter
+          pip install mkdocs-include-dir-to-nav
+          pip install mkdocs-literate-nav
+          pip install mkdocs-site-urls
+          pip install mike
+          pip install mistune==3.0.2
 
       - name: Build and Deploy MkDocs
         env:
