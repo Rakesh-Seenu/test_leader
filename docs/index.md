@@ -9,7 +9,8 @@ This allows researchers and developers to:
 
 - Simulate biomodels for an initial period (e.g., 10 hours).
 - Predict future time steps using AI-powered time series models.
-- Compare simulated vs. predicted outcomes using evaluation metrics.
+- Test and compare their own algorithms on biomodels or QSP models.
+- Evaluate and compare the performance of their algorithm against VPE’s AI models using       comprehensive evaluation metrics.
 - Benchmark multiple algorithms and synthetic datasets for accuracy and performance.
 
 <div class="grid cards" markdown>
