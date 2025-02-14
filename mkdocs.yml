@@ -1,132 +1,90 @@
-site_name: LeaderBoard
+site_name: VPELeaderboard
 repo_url: https://github.com/Rakesh-Seenu/test_leader
-repo_name: VPE/LeaderBoard
-
+repo_name: VPE/Leaderboard
 nav:
-  - Home : index.md
-  - Getting Started: user-guide/index.md
-  - QSP Models : Datasets/index.md
-  - Algorithms: algorithms/index.md
-  - Leaderboard: leaderboard/index.md
-  - Literature Survey: literature_survey.md
-
+- Home: index.md
+- Getting Started: user-guide/index.md
+- QSP Models: qspdataset/index.md
+- Algorithms: algorithms/index.md
+- Leaderboard: leaderboard/index.md
 theme:
-  name: "material"
+  name: material
   logo: assets/images/VPE.png
-  # custom_dir: ./docs/overrides
   features:
-    - content.code.annotate
-    - navigation.tabs
-    - navigation.indexes
-    - navigation.instant0
-    - navigation.path
-    - navigation.instant.prefetch
-    - navigation.top
-    - navigation.footer
-    - search.suggest
-    - search.highlight
-    - content.code.copy
+  - content.code.annotate
+  - navigation.tabs
+  - navigation.indexes
+  - navigation.instant0
+  - navigation.path
+  - navigation.instant.prefetch
+  - navigation.top
+  - navigation.footer
+  - search.suggest
+  - search.highlight
+  - content.code.copy
   font:
     code: Roboto Mono
   favicon: assets/images/VPE.png
   language: en
   palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: light
-      primary: custom
-      accent: lime
-      toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: dark
-      primary: custom
-      accent: lime
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
-  # icon:
-  #   logo: vpe/VPE
-  #   repo: fontawesome/brands/github      
-
+  - media: '(prefers-color-scheme: light)'
+    scheme: light
+    primary: custom
+    accent: lime
+    toggle:
+      icon: material/weather-night
+      name: Switch to dark mode
+  - media: '(prefers-color-scheme: dark)'
+    scheme: dark
+    primary: custom
+    accent: lime
+    toggle:
+      icon: material/weather-sunny
+      name: Switch to light mode
 extra_css:
-  - assets/css/color-schemes.css
-  - assets/css/fonts.css
-  - assets/css/custom-material.css
-
+- assets/css/color-schemes.css
+- assets/css/fonts.css
+- assets/css/custom-material.css
 plugins:
-  - search
-  # - gen-files:
-  #   scripts:
-  #     - scripts/gen_ref_pages.py
-  - macros
-  - mike:
-      alias_type: copy
-      canonical_version: "latest"
-      version_selector: true
-      css_dir: "assets/css"
-      javascript_dir: "assets/js"
-  - mkdocstrings:
-      handlers:
-        python:
-          paths:
-            - ./docs/
-  - mkdocs-jupyter:
-      theme: auto
-      highlight_extra_classes: "jupyter-notebook"
-  - include_dir_to_nav:
-      file_pattern: '.*\.(md|ipynb)$'
-  - literate-nav:
-      nav_file: docs/SUMMARY.md    
-  - site-urls
-
+- search
+- macros
+- mike:
+    alias_type: copy
+    canonical_version: latest
+    version_selector: true
+    css_dir: assets/css
+    javascript_dir: assets/js
+- mkdocstrings:
+    handlers:
+      python:
+        paths:
+        - ./docs/
+- mkdocs-jupyter:
+    theme: auto
+    highlight_extra_classes: jupyter-notebook
+- include_dir_to_nav:
+    file_pattern: .*\.(md|ipynb)$
+- literate-nav:
+    nav_file: docs/SUMMARY.md
+- site-urls
 markdown_extensions:
-  - attr_list
-  - md_in_html
-  - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.snippets:
-      check_paths: true
-      restrict_base_path: False
-      base_path: "."
-  - pymdownx.emoji:
+- attr_list
+- md_in_html
+- pymdownx.details
+- pymdownx.superfences
+- pymdownx.snippets:
+    check_paths: true
+    restrict_base_path: false
+    base_path: .
+- pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - pymdownx.tabbed:
-      alternate_style: true
-  - def_list
-  - admonition
-  - footnotes
-
+- pymdownx.tabbed:
+    alternate_style: true
+- def_list
+- admonition
+- footnotes
 extra_javascript:
-  - https://code.jquery.com/jquery-3.7.1.js
-  - https://cdn.datatables.net/2.0.1/js/dataTables.js
-  - https://cdn.datatables.net/buttons/3.0.1/js/dataTables.buttons.js
-  - https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js
-  - https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/pdfmake.min.js
-  - https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/vfs_fonts.js
-  - https://cdn.datatables.net/buttons/3.0.1/js/buttons.html5.min.js
-  - https://cdn.datatables.net/buttons/3.0.1/js/buttons.print.min.js
-
-
-# extra_css:
-#   - https://cdn.datatables.net/2.0.1/css/dataTables.dataTables.css
-#   - https://cdn.datatables.net/buttons/3.0.1/css/buttons.dataTables.css
-
-extra_javascript:
-  - docs/assets/js/datatables.js
-
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/Rakesh-Seenu/test_leader
-  version:
-    provider: mike
-    default: latest
-    alias: true
-  # docker_url: nvcr.io/nvidia/clara/bionemo-framework
-  # docker_tag: nightly
-  github_url: https://github.com/Rakesh-Seenu/test_leader
-
+- docs/assets/js/datatables.js
 extra:
   pwa: false

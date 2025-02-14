@@ -8,16 +8,9 @@ Welcome to [**Team VPE's**](https://github.com/VirtualPatientEngine) **Leaderboa
 This allows researchers and developers to:
 
 - Simulate biomodels for an initial period (e.g., 10 hours).
-- Predict the next time steps using AI-driven time series models.
+- Predict future time steps using AI-powered time series models.
 - Compare simulated vs. predicted outcomes using evaluation metrics.
-- Test multiple algorithms and synthetic datasets to measure accuracy and performance.
-
-## Why Use This Platform?
-
-- Predictive AI-Driven Simulations – Extend biomodel analysis with time series forecasting
-- Automated Pipelines – Seamless execution of simulations & predictions
-- Real-time Visualizations – Compare predicted vs. actual data instantly
-- Interactive Leaderboard – Rank AI models based on accuracy metrics
+- Benchmark multiple algorithms and synthetic datasets for accuracy and performance.
 
 <div class="grid cards" markdown>
 
@@ -25,35 +18,35 @@ This allows researchers and developers to:
 
     ---
 
-    Install VPE and set up your environment to start accelerating your VPE workflows.
+    Kickstart your journey with VPE Leaderboard – install the PyPI package and follow an easy step-by-step guide for effortless setup.
 
     [Get Started](user-guide){ .md-button .md-button }
-
--   :material-code-greater-than:{ .lg } __Algorithms__
-
-    ---
-
-    Access comprehensive documentation on Biology Model's Algorithms
-
-    [API Reference](algorithms){ .md-button .md-button }
-
--   :material-cube-outline:{ .lg } __Leaderboard__
-
-    ---
-
-    Explore detailed instructions and best practices for using leaderboard in your research.
-
-    [Explore LeaderBoard](leaderboard){ .md-button .md-button }
-
-
+    
 
 -   :material-database-outline:{ .lg } __QSP Models__
 
     ---
 
-    Explore QSP Bio Model datasets that come pre-packaged with the BioNeMo Framework.
+    Discover QSP datasets integrated seamlessly into the framework for streamlined analysis and experimentation.
 
     [Explore Datasets](datasets){ .md-button .md-button }
+
+-   :material-code-greater-than:{ .lg } __Algorithms__
+
+    ---
+
+    Discover cutting-edge algorithms designed for time series forecasting and predictive modeling.
+
+    [Explore Algorithms](algorithms){ .md-button .md-button }
+
+-   :material-cube-outline:{ .lg } __Leaderboard__
+
+    ---
+
+    Explore algorithmic outputs and performance metrics in the leaderboard to evaluate and compare results effortlessly.
+
+    [Explore LeaderBoard](leaderboard){ .md-button .md-button }
+
 
 
 </div>
