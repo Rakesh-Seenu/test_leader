@@ -4,7 +4,7 @@ repo_name: VPE/Leaderboard
 nav:
 - Home: index.md
 - Getting Started: user-guide/index.md
-- QSP Models: qspdataset/index.md
+- Data: data/index.md
 - Algorithms: algorithms/index.md
 - Leaderboard: leaderboard/index.md
 theme:
