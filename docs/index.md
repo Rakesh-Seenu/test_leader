@@ -29,7 +29,7 @@ This allows researchers and developers to:
 
     Discover QSP datasets integrated seamlessly into the framework for streamlined analysis and experimentation.
 
-    [Explore Datasets](datasets){ .md-button .md-button }
+    [Explore Datasets](qspdataset){ .md-button .md-button }
 
 -   :material-code-greater-than:{ .lg } __Algorithms__
 
@@ -45,7 +45,7 @@ This allows researchers and developers to:
 
     Explore algorithmic outputs and performance metrics in the leaderboard to evaluate and compare results effortlessly.
 
-    [Explore LeaderBoard](leaderboard){ .md-button .md-button }
+    [Explore Leaderboard](leaderboard){ .md-button .md-button }
 
 
 
